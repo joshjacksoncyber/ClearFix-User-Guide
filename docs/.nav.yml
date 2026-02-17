@@ -1,0 +1,13 @@
+nav:
+    - index.md
+    - dashboard.md
+    - scans.md
+    - vulnerabilities.md
+    - scanners.md
+    - agents.md
+    - fixes.md
+    - integrations.md
+    - rules.md
+    - admin-settings.md
+    - platform-admin.md
+    
