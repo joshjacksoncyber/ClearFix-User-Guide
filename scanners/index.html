@@ -419,6 +419,34 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#integrating-with-scanners" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Integrating with Scanners
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Integrating with Scanners">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#appcheck" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        AppCheck
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -637,6 +665,34 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#integrating-with-scanners" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Integrating with Scanners
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Integrating with Scanners">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#appcheck" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        AppCheck
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -654,8 +710,8 @@
 
 
 
-<h1 id="scanners">Scanners</h1>
-<p><img alt="Scanners Page" src="../img/scanners-page.png" /></p>
+<div><h1 id="scanners">Scanners</h1>
+<p><img alt="Scanners Page" src="../img/scanners-page.png"></p>
 <p>Here you can link scanners from popular vulnerability scanning platforms like Tenable and AppCheck; this is required for you to be able to launch scans from the ClearFix platform.</p>
 <h2 id="creating-scanners">Creating Scanners</h2>
 <p>To create a new scanner, click on the button labelled 'Create New Scanner'. From here, name your scanner and select the platform it will be linked to from the drop down list labelled 'Vendor'.</p>
@@ -665,6 +721,13 @@
 <p>You are able to edit information associated with a scanner on this page including the name and platform association of a specific scanner. To do this, click on the ‘Edit’ button next to a scanner, then input the relevant information to better identify the scanner that you are using.</p>
 <p>If you are dealing with a large number of scanners, you can sort and filter your view to match specific parameters. To do this, either click on the arrows next to the heading of any column in the view, or click on the ‘Filter’ button and input the relevant filter information required.</p>
 <p>If you need to delete a scanner, click on the ‘Delete’ button next to the scanner you wish to delete. This will remove the association with the scanner on its platform and prevent it from being displayed in the ClearFix platform (this will not delete scanners on the vulnerability scanning service you are using).</p>
+<h2 id="integrating-with-scanners">Integrating with Scanners</h2>
+<h3 id="appcheck">AppCheck</h3>
+<p>To integrate with an AppCheck scanner, you will need to create an API token on your AppCheck portal. The default 'Allowed Subnets' value is '127.0.0.0/8', but to link ClearFix to AppCheck the 'Allowed Subnets' field must be set to '0.0.0.0/0'. This allows the API token to access all of the scans on the AppCheck platform.</p>
+<p><img alt="AppCheck API Tokens Page" src="../img/appcheck-api-token-config.png"></p>
+<p>On the Scanners page in ClearFix, follow the steps to create a new scanner and enter the API token that you created on AppCheck and then click 'Create'.</p>
+<p><img alt="Creating an AppCheck Scanner" src="../img/create-scanner.png"></p>
+<p>From here, you can browse to the Scans page and view your scans that you have configured in AppCheck to launch them from within ClearFix. Any scans you launch from ClearFix will show up in the platform after they have been launched.</p></div>
 
 
 
