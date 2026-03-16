@@ -22,3 +22,9 @@ To upload results from an existing scan, click ‘Upload Scan/Pentest’. In the
 To upload penetration test results, click on the text that says ‘Download Pentest CSV template’. Penetration test results must be formatted before uploading to ClearFix; review the results of your penetration test and input them into the template so that they can be processed by ClearFix in the correct manner. Alternatively, you may wish to request that your penetration tester provides you with the results of your test in the ClearFix Pentest CSV format.
 
 Once these results have been formatted, they are ready to be uploaded. Simply click on the ‘Upload Scan/Pentest’ button, then select ‘Pentest’ as the type of data that you’ll be uploading. Browse for the CSV file containing the pentest results after this and upload it to the grey box marked for uploading your files, then click ‘Upload Pentest’. You should see the results populate shortly once the platform has finished processing them.
+
+## Video Demonstration
+
+The following video shows the process for launching a scan in ClearFix.
+
+![type:video](https://youtu.be/HOBoIO0i8EQ)

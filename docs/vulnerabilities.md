@@ -33,3 +33,8 @@ From the vulnerability page, you will be able to:
 - Select a fix for the vulnerability
 
 Performing these actions will trigger an approval process for the administrator of your platform. Your administrator will receive a notification telling them that they have items to approve. Once all necessary items are approved, mark the vulnerability as triaged and proceed to either select a fix or continue with the vulnerability marked as a false positive. When the vulnerability has been mitigated, you can close it from this page using the button that will appear on the top right corner of the screen.
+
+## Video Demonstration
+The following video demonstrates how vulnerabilities can be managed in ClearFix.
+
+![type:video](https://youtu.be/p5vV4WAEXgk)

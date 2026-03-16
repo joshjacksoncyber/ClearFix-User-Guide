@@ -16,3 +16,16 @@ You are able to edit information associated with a scanner on this page includin
 If you are dealing with a large number of scanners, you can sort and filter your view to match specific parameters. To do this, either click on the arrows next to the heading of any column in the view, or click on the ‘Filter’ button and input the relevant filter information required.
 
 If you need to delete a scanner, click on the ‘Delete’ button next to the scanner you wish to delete. This will remove the association with the scanner on its platform and prevent it from being displayed in the ClearFix platform (this will not delete scanners on the vulnerability scanning service you are using).
+
+## Integrating with Scanners
+
+### AppCheck
+To integrate with an AppCheck scanner, you will need to create an API token on your AppCheck portal. The default 'Allowed Subnets' value is '127.0.0.0/8', but to link ClearFix to AppCheck the 'Allowed Subnets' field must be set to '0.0.0.0/0'. This allows the API token to access all of the scans on the AppCheck platform.
+
+![AppCheck API Tokens Page](img/appcheck-api-token-config.png)
+
+On the Scanners page in ClearFix, follow the steps to create a new scanner and enter the API token that you created on AppCheck and then click 'Create'.
+
+![Creating an AppCheck Scanner](img/create-scanner.png)
+
+From here, you can browse to the Scans page and view your scans that you have configured in AppCheck to launch them from within ClearFix. Any scans you launch from ClearFix will show up in the platform after they have been launched.
